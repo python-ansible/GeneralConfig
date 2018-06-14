@@ -1,0 +1,4 @@
+#源码安装
+yum install -y automake libevent-devel ncurses-devel
+sh autogen.sh
+./configure && make
